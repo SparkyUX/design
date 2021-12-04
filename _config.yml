@@ -1,3 +1,1 @@
-theme: frankieroberto/govuk-jekyll-theme
-plugins:
-- jekyll-remote-theme
+theme: jekyll-theme-cayman
