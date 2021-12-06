@@ -1,0 +1,17 @@
+---
+# Sets up global styles for formatting HTML generated from Markdown, as well as
+# including all the other CSS.
+---
+
+$baseurl: "{{ site.baseurl }}";
+$govuk-assets-path: "{{ site.baseurl }}/assets/";
+
+@import "all";
+
+a {
+  @extend %govuk-link;
+}
+
+p {
+  @extend %govuk-body-m;
+}

@@ -1,0 +1,92 @@
+/*
+  Markdown - Global styles
+  ----------------------------------- */
+
+
+h1 {
+  @extend %govuk-heading-xl;
+}
+
+h2 {
+  @extend %govuk-heading-l;
+}
+
+h3 {
+  @extend %govuk-heading-m;
+}
+
+h4 {
+  @extend %govuk-heading-s;
+}
+
+ul {
+  @extend %govuk-list;
+  @extend %govuk-list--bullet;
+}
+
+ol {
+  @extend %govuk-list;
+  @extend %govuk-list--number;
+}
+
+hr {
+  @extend .govuk-section-break;
+  @extend .govuk-section-break--xl;
+  @extend .govuk-section-break--visible;
+}
+
+a {
+  @extend %govuk-link;
+}
+
+p {
+  @extend %govuk-body-m;
+}
+
+blockquote {
+  @extend .govuk-inset-text;
+}
+
+table {
+  @extend .govuk-table;
+}
+
+th {
+  @extend .govuk-table__header;
+}
+
+td {
+  @extend .govuk-table__cell;
+}
+
+pre {
+  font-size: 16px;
+  position: relative;
+  margin: 0;
+  padding: 15px;
+  overflow: auto;
+  border: 1px solid #b1b4b6;
+  background-color: #f3f2f1;
+  max-width: 38em;
+  margin-bottom: 20px;
+}
+
+code {
+    font-family: monospace, monospace;
+}
+
+li code, td code, p code {
+  background: #f5f5f5;
+  padding: 3px 5px;
+  border-radius: 1px;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  color: #a71d5d;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+}
