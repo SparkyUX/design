@@ -1,14 +1,10 @@
-<!-- Nav -->
-* [Design](/README.md)
-* [What designers do](/design.md)
-* [Design community](/community.md)
-* [Design standards](/standards.md)
-* [Tools and resources](/tools-and-resources.md)
-* [Services we're working on](/service-teams.md)
-* [Specialist Publisher](/specialist-publisher.md)
-* Accessibility acceptance criteria
-* [Design crits](/design-crits.md)
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+layout: post
+permalink: /accessibility-acceptance-criteria.html
+---
 # Accessibility acceptance criteria
 
 Ensuring a service is accessible is often something that a team decides to do either prior to a service assessment or when it deems the service is ready for release. A better way to do it is to make it part of the acceptance criteria for every sprint. This not only ensures that the team doesn’t get any nasty surprises but is a way for a team to work effectively together by ensuring the acceptance criteria by which they deliver code is aligned with accessibility requirements.

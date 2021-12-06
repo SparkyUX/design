@@ -1,16 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-<!-- Nav -->
-* [Design](/README.md)
-* [What designers do](/design.md)
-* [Design community](/community.md)
-* [Design standards](/standards.md)
-* [Tools and resources](/tools-and-resources.md)
-* [Services we're working on](/service-teams.md)
-* [Specialist Publisher](/specialist-publisher.md)
-* [Accessibility acceptance criteria](/accessibility-acceptance-criteria.md)
-* Design crits
-
-
+layout: post
+permalink: /design-crits.html
+---
 # Design crits
 
 A design crit is a critique, or detailed analysis of something (not a criticism) in order to improve its design. Design crits can be done at any stage in the design process and help improve our services.

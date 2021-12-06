@@ -1,32 +1,38 @@
 /*
   Markdown - Global styles
   ----------------------------------- */
-
+.markdown {
 
 h1 {
   @extend %govuk-heading-xl;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 h2 {
   @extend %govuk-heading-l;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 h3 {
   @extend %govuk-heading-m;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 h4 {
   @extend %govuk-heading-s;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 ul {
   @extend %govuk-list;
   @extend %govuk-list--bullet;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 ol {
   @extend %govuk-list;
   @extend %govuk-list--number;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 hr {
@@ -37,18 +43,22 @@ hr {
 
 a {
   @extend %govuk-link;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 p {
   @extend %govuk-body-m;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 blockquote {
   @extend .govuk-inset-text;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 table {
   @extend .govuk-table;
+  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 th {
@@ -72,10 +82,12 @@ pre {
 }
 
 code {
-    font-family: monospace, monospace;
+  font-family: monospace, monospace;
 }
 
-li code, td code, p code {
+li code,
+p code,
+td code {
   background: #f5f5f5;
   padding: 3px 5px;
   border-radius: 1px;
@@ -89,4 +101,5 @@ li code, td code, p code {
   -ms-word-break: break-all;
   word-break: break-all;
   word-break: break-word;
+}
 }

@@ -1,13 +1,13 @@
 ---
 # This just includes all the CSS
 ---
-@import "{{ site.theme }}";
+/* @import "{{ site.theme }}"; */
 /* "{{ site.theme }}" = Your theme name */
 /* Eg: @import 'jekyll-theme-cayman'; */
 
 /* Your css rules goes after this */
 
-$baseurl: "{{ site.baseurl }}";
-$govuk-assets-path: "{{ site.baseurl }}/assets/";
+/* $baseurl: "{{ site.baseurl }}"; */
+/* $govuk-assets-path: "{{ site.baseurl }}/assets/"; */
 
 @import "all";

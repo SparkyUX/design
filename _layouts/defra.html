@@ -1,9 +1,21 @@
 {% include defra-header.html %}
 
-        <div class="govuk-width-container">
-            <main class="govuk-main-wrapper" id="main-content" role="main">
-                {{ content }}
-            </main>
-        </div>
+<div class="govuk-width-container">
+  <main class="govuk-main-wrapper" id="main-content" role="main">
+
+    <div class="govuk-grid-row">
+
+      <div class="govuk-grid-column-one-third">
+        {% include nav.html %}
+      </div>
+
+      <div class="govuk-grid-column-two-thirds markdown">
+        {{ content }}
+      </div>
+
+    </div>
+
+  </main>
+</div>
 
 {% include defra-footer.html %}

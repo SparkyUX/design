@@ -27,12 +27,12 @@ github_username: tomf87
 
 # Build settings
 markdown: kramdown
-# theme: minima
-
+theme: null
 plugins:
 #  - govspeak
 #  - jekyll-feed
 
+include: [_pages]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

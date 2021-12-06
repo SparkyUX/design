@@ -1,16 +1,11 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-<!-- Nav -->
-* [Design](/README.md)
-* [What designers do](/design.md)
-* [Design community](/community.md)
-* [Design standards](/standards.md)
-* [Tools and resources](/tools-and-resources.md)
-* [Services we're working on](/service-teams.md)
-* Specialist Publisher
-* [Accessibility acceptance criteria](/accessibility-acceptance-criteria.md)
-* [Design crits](/design-crits.md)
-
-# What is Specialist Publisher
+layout: post
+permalink: /specialist-publisher.html
+---
+# What is Specialist Publisher?
 
 The guide will presume you or someone in your team already have access to Whitehall Publisher or the Whitehall staging environment, Whitehall Integration.
 

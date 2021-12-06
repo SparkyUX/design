@@ -3,18 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
+permalink: /design.html
 ---
-<!-- Nav -->
-* [Design](/README.md)
-* What designers do
-* [Design community](/community.md)
-* [Design standards](/standards.md)
-* [Tools and resources](/tools-and-resources.md)
-* [Services we're working on](/service-teams.md)
-* [Specialist Publisher](/specialist-publisher.md)
-* [Accessibility acceptance criteria](/accessibility-acceptance-criteria.md)
-* [Design crits](/design-crits.md)
-
 # Interaction Design
 
 Interaction designers are essential parts of service teams that want to meet user needs. They work closely with the entire project team, especially User researchers, Service designers, Content designers and Software developers.

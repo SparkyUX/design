@@ -1,16 +1,11 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-<!-- Nav -->
-* [Design](/README.md)
-* [What designers do](/design.md)
-* [Design community](/community.md)
-* Design standards
-* [Tools and resources](/tools-and-resources.md)
-* [Services we're working on](/service-teams.md)
-* [Specialist Publisher](/specialist-publisher.md)
-* [Accessibility acceptance criteria](/accessibility-acceptance-criteria.md)
-* [Design crits](/design-crits.md)
-
-## Defra Design standards & guidance
+layout: post
+permalink: /standards.html
+---
+# Defra Design standards & guidance
 
 All Defra's online services must:
 

@@ -1,15 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-<!-- Nav -->
-* [Design](/README.md)
-* [What designers do](/design.md)
-* [Design community](/community.md)
-* [Design standards](/standards.md)
-* Tools and resources
-* [Services we're working on](/service-teams.md)
-* [Specialist Publisher](/specialist-publisher.md)
-* [Accessibility acceptance criteria](/accessibility-acceptance-criteria.md)
-* [Design crits](/design-crits.md)
-
+layout: post
+permalink: /tools-and-resources.html
+---
 # Tools and resources
 
 ## Components and patterns

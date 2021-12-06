@@ -1,14 +1,10 @@
-<!-- Nav -->
-* [Design](/README.md)
-* [What designers do](/design.md)
-* [Design community](/community.md)
-* [Design standards](/standards.md)
-* [Tools and resources](/tools-and-resources.md)
-* Services we're working on
-* [Specialist Publisher](/specialist-publisher.md)
-* [Accessibility acceptance criteria](/accessibility-acceptance-criteria.md)
-* [Design crits](/design-crits.md)
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+layout: post
+permalink: /service-teams.html
+---
 # Current services
 
 | Service                                                    | Phase                  | Programme                                        | ALBs                                  | Primary users                                                                      | Current designers                                | Previous designers                           | Location   | Prototype                                                                                                            | Public URL                                                                                                                                                 | Deployed URL                                                                                           | Username | Password        |
