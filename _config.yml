@@ -26,11 +26,11 @@ twitter_username: ""
 github_username: tomf87
 
 # Build settings
-markdown: Govspeak
+markdown: kramdown
 # theme: minima
 
 plugins:
-  - govspeak
+#  - govspeak
 #  - jekyll-feed
 
 
