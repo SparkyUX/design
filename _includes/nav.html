@@ -3,34 +3,34 @@
     <h2 class="govuk-visually-hidden" id="subnav-heading">Pages in this section</h2>
     <ul>
       <li {% if page.url contains '/index.html' %}class="active" {% endif %}>
-        <a href="/">Home</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
       </li>
       <li {% if page.url contains '/interaction-design/' %}class="active" {% endif %}>
         <a href="{{ '/interaction-design/' | relative_url }}">What interaction designers do</a>
       </li>
       <li {% if page.url contains '/service-design/' %}class="active" {% endif %}>
-        <a href="{{ '/service-design/' | absolute_url }}">What service designers do</a>
+        <a href="{{ '/service-design/' | relative_url }}">What service designers do</a>
       </li>
       <li {% if page.url contains '/community/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/community">Design community</a>
+        <a href="{{ '/community/' | relative_url }}">Design community</a>
       </li>
       <li {% if page.url contains '/standards/' %}class="active" {% endif %}>
-        <a href="/standards">Design standards</a>
+        <a href="{{ '/standards/' | relative_url }}">Design standards</a>
       </li>
       <li {% if page.url contains '/tools-and-resources/' %}class="active" {% endif %}>
-        <a href="/tools-and-resources">Tools and resources</a>
+        <a href="{{ '/tools-and-resources/' | relative_url }}">Tools and resources</a>
       </li>
       <li {% if page.url contains '/service-teams/' %}class="active" {% endif %}>
-        <a href="/service-teams">Services we're working on</a>
+        <a href="{{ '/service-teams/' | relative_url }}">Services we're working on</a>
       </li>
       <li {% if page.url contains '/specialist-publisher/' %}class="active" {% endif %}>
-        <a href="/specialist-publisher">Specialist Publisher</a>
+        <a href="{{ '/specialist-publisher/' | relative_url }}">Specialist Publisher</a>
       </li>
       <li {% if page.url contains '/accessibility-acceptance-criteria/' %}class="active" {% endif %}>
-        <a href="/accessibility-acceptance-criteria/">Accessibility acceptance criteria</a>
+        <a href="{{ '/accessibility-acceptance-criteria/' | relative_url }}">Accessibility acceptance criteria</a>
       </li>
       <li {% if page.url contains '/design-crits/' %}class="active" {% endif %}>
-        <a href="/design-crits">Design crits</a>
+        <a href="{{ '/design-crits/' | relative_url }}">Design crits</a>
       </li>
     </ul>
   </nav>
