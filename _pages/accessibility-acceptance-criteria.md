@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
-permalink: /accessibility-acceptance-criteria.html
+permalink: /accessibility-acceptance-criteria/
 ---
 # Accessibility acceptance criteria
 

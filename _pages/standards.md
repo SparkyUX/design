@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
-permalink: /standards.html
+permalink: /standards/
 ---
 # Defra Design standards & guidance
 
