@@ -6,31 +6,31 @@
         <a href="/">Home</a>
       </li>
       <li {% if page.url contains '/interaction-design/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/interaction-design">What interaction designers do</a>
+        <a href="{{ '/interaction-design/' | relative_url }}">What interaction designers do</a>
       </li>
       <li {% if page.url contains '/service-design/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/service-design">What service designers do</a>
+        <a href="{{ '/service-design/' | absolute_url }}">What service designers do</a>
       </li>
       <li {% if page.url contains '/community/' %}class="active" {% endif %}>
         <a href="{{ site.baseurl }}/community">Design community</a>
       </li>
       <li {% if page.url contains '/standards/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/standards">Design standards</a>
+        <a href="/standards">Design standards</a>
       </li>
       <li {% if page.url contains '/tools-and-resources/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/tools-and-resources">Tools and resources</a>
+        <a href="/tools-and-resources">Tools and resources</a>
       </li>
       <li {% if page.url contains '/service-teams/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/service-teams">Services we're working on</a>
+        <a href="/service-teams">Services we're working on</a>
       </li>
       <li {% if page.url contains '/specialist-publisher/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/specialist-publisher">Specialist Publisher</a>
+        <a href="/specialist-publisher">Specialist Publisher</a>
       </li>
       <li {% if page.url contains '/accessibility-acceptance-criteria/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/accessibility-acceptance-criteria/">Accessibility acceptance criteria</a>
+        <a href="/accessibility-acceptance-criteria/">Accessibility acceptance criteria</a>
       </li>
       <li {% if page.url contains '/design-crits/' %}class="active" {% endif %}>
-        <a href="{{ site.baseurl }}/design-crits">Design crits</a>
+        <a href="/design-crits">Design crits</a>
       </li>
     </ul>
   </nav>
