@@ -385,7 +385,6 @@ header .wrapper-header .wrapper-header--menu .header-menu--menu li {
 .subnav {
   margin-bottom: 100px;
   padding-right: 15px;
-  font-family: Helvetica, Arial, sans-serif !important;
 }
 
 .subnav ul {
@@ -408,8 +407,10 @@ header .wrapper-header .wrapper-header--menu .header-menu--menu li {
   font-weight: bold;
 }
 
-.subnav a, subnav a:visited {
-  color: #000;
+.subnav a {
+  @extend %govuk-link;
+  font-family: Helvetica, Arial, sans-serif !important;
+  color: #000 !important;
   text-decoration: none;
 }
 
