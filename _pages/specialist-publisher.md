@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
-permalink: /specialist-publisher/
+permalink: design/specialist-publisher/
 ---
 # What is Specialist Publisher?
 
