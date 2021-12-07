@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
-permalink: design/tools-and-resources/
+permalink: /tools-and-resources/
 ---
 # Tools and resources
 

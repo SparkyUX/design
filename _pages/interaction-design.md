@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: post
-permalink: design/interaction-design/
+permalink: /interaction-design/
 ---
 # Interaction Design
 
